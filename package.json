@@ -1,0 +1,25 @@
+{
+    "name": "oscar-core",
+    "version": "1.0.0",
+    "description": "welcome to oscar",
+    "main": "oscar.js",
+    "scripts": {
+        "start": "node oscar.js"
+    },
+    "dependencies": {
+        "@hapi/boom": "^10.0.0",
+        "@octokit/rest": "^21.0.0",
+        "@whiskeysockets/baileys": "github:pou-code/Baileys",
+        "axios": "^1.6.0",
+        "body-parser": "^1.20.3",
+        "chalk": "^4.1.2",
+        "jimp": "^1.6.1",
+        "moment-timezone": "^0.5.45",
+        "pino": "^9.5.0",
+        "readline-sync": "^1.4.10",
+        "telegraf": "^4.16.3"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
